@@ -14,5 +14,5 @@ for year in range(1997, 2018):
     res = requests.get('https://www.forbes.com/ajax/list/data?year=' + year +'&uri=billionaires&type=person', headers=headers)
     time.sleep(3)
     data = res.text
-    with open('./data/' + year +'.json', 'w') as f:
+    with open('./static/raw_data/' + year +'.json', 'w') as f:
         f.write(res.text)
