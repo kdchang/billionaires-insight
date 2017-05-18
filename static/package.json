@@ -1,0 +1,22 @@
+{
+  "name": "billionaires-insight",
+  "version": "1.0.0",
+  "description": "[Forbes The World's Billionaires](https://www.forbes.com/billionaires/list/#version:realtime)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdchang/billionaires-insight.git"
+  },
+  "author": "kdchang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdchang/billionaires-insight/issues"
+  },
+  "homepage": "https://github.com/kdchang/billionaires-insight#readme",
+  "dependencies": {
+    "datamaps": "^0.5.8"
+  }
+}
